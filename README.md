@@ -3,7 +3,7 @@
 ## This is to create custom package for user management.
 
 Install via composer
-composer require usoftech/role
+composer require usoftech/user
 
 Then publish it 
 php artisan vendor:publish

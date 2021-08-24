@@ -1,0 +1,30 @@
+{
+    "name": "usoftech/user",
+    "description": "This is for user management.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "USoftech\\User\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahul Sharma",
+            "email": "rahulsharma389@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^6.2",
+        "proengsoft/laravel-jsvalidation": "^4.4",
+        "yajra/laravel-datatables-oracle": "~9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "USoftech\\User\\UserServiceProvider"
+            ]
+        }
+    }
+}
